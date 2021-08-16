@@ -1,0 +1,24 @@
+﻿<Application x:Class="HardwareInfo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Name="UsageBrush" x:Key="UsageBrush" MappingMode="Absolute" EndPoint="100,1">
+            <LinearGradientBrush.RelativeTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                    <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </LinearGradientBrush.RelativeTransform>
+            <GradientStopCollection>
+                <GradientStop Color="#FF0BB8F8" Offset="0.3"/>
+                <GradientStop Color="#FF04D72B" Offset="0.618"/>
+                <GradientStop Color="Yellow" Offset="0.8"/>
+                <GradientStop Color="Red" Offset="1"/>
+            </GradientStopCollection>
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>
