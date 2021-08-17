@@ -1,5 +1,4 @@
 ﻿# HardwareInfo
-[TOC]
 ## English
 ### Introduction
 This is a hardware monitor based on [OpenHardwareMonitor](http://github.com/openhardwaremonitor/openhardwaremonitor "OpenHardwareMonitor"). It can display the current CPU usage and and the detailed information of CPU and GPU.
